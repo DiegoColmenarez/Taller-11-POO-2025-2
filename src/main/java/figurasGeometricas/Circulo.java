@@ -1,7 +1,6 @@
 package figurasGeometricas;
 
 public class Circulo extends Figuras{
-    private double area;
     public Circulo(double radio){
         super(radio);
     }
@@ -12,11 +11,11 @@ public class Circulo extends Figuras{
     }
     @Override
     public void mostrarArea() {
-        System.out.println("El area es: " + area);
+        System.out.printf("El area es: %.2f:", area);
     }
     public static void main(String[] args) {
-        var sa = new Circulo(13.3);
-        sa.calculaArea();
-        sa.mostrarArea();
+        var circulo = new Circulo(-13.3);
+        circulo.calculaArea();
+        circulo.mostrarArea();
     }
 }
