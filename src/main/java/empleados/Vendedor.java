@@ -22,7 +22,7 @@ public class Vendedor extends Empleados{
                 nombre,numVentas, calcularSalario());
     }
     public static void main(String[] args) {
-        var veden = new Vendedor("Juan", 8, 770);
-        veden.mostrarDetalles();
+        var vendedor = new Vendedor("Juan", 8, 770);
+        vendedor.mostrarDetalles();
     }
 }
