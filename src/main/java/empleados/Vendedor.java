@@ -24,5 +24,7 @@ public class Vendedor extends Empleados{
     public static void main(String[] args) {
         var vendedor = new Vendedor("Juan", 8, 770);
         vendedor.mostrarDetalles();
+        var gerente = new Gerente("Alejandra", "Ventas", 2000);
+        gerente.mostrarDetalles();
     }
 }
